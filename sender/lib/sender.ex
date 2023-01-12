@@ -28,7 +28,8 @@ defmodule Sender do
   end
 
   def send_email("email3@example.com" = email) do
-    raise "could not send email to #{email}"
+    IO.puts "could not send email to #{email}"
+    :error
   end
 
   # Slow email

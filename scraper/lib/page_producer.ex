@@ -22,6 +22,7 @@ defmodule PageProducer do
   end
 
   def handle_cast({:pages, pages}, state) do
+    Logger.info("PageProducer received pages: #{inspect(pages)}")
     # Produce pages (will be send to consumers)
     {:noreply, pages, state}
   end

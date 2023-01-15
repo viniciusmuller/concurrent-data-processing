@@ -1,3 +1,4 @@
 %{
+  "flow": {:hex, :flow, "1.2.3", "1d9239be6a6ec8ef33f22200c8d8b3a756a28145476c7e096fbb3fda04e12f5c", [:mix], [{:gen_stage, "~> 1.0", [hex: :gen_stage, repo: "hexpm", optional: false]}], "hexpm", "77eeb976cb5152a1168290ce9015b8b2d41b70eb5265a36d7538a817237891d9"},
   "gen_stage": {:hex, :gen_stage, "1.1.2", "b1656cd4ba431ed02c5656fe10cb5423820847113a07218da68eae5d6a260c23", [:mix], [], "hexpm", "9e39af23140f704e2b07a3e29d8f05fd21c2aaf4088ff43cb82be4b9e3148d02"},
 }
